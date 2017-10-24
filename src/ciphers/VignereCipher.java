@@ -14,8 +14,9 @@ import java.util.Scanner;
 public class VignereCipher {
     public static void main(String args[]){
                 Scanner scan = new Scanner(System.in);
+                System.out.println("Enter the Message: ");
                 char msg[] = scan.next().toUpperCase().toCharArray();
-                
+                System.out.println("Enter the Key: ");
 		char key[] = scan.next().toUpperCase().toCharArray();
 		
                 int msglen = msg.length, i , j;
@@ -48,3 +49,16 @@ public class VignereCipher {
                 
 	}
 }
+
+/*
+OUTPUT:
+Enter the Message: 
+hellocipher
+Enter the Key: 
+good
+Original Message : HELLOCIPHER
+Key : GOOD
+Generated Key : GOODGOODGOO
+Encrypted Text : NSZOUQWSNSF
+Decryption Text : HELLOCIPHER
+*/

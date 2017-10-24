@@ -27,3 +27,10 @@ public class SHACipher {
         System.out.println("Hashed Code: " + stringBuffer.toString());
     }
 }
+
+/*
+OUTPUT
+Enter the Text: 
+thisisSHA
+Hashed Code: c82fced2da103576704f7f7f9f73465421f6cf6f
+*/

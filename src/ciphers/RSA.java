@@ -77,3 +77,13 @@ public class RSA {
         return  (new BigInteger(ciphertext)).modPow(d, N).toByteArray();
     }
 }
+
+/*
+OUTPUT:
+Enter the Text: 
+hello
+Encrypting Text: hello
+Byte of input message: 104101108108111
+Decrypting Bytes: 104101108108111
+Decrypted Text: hello
+*/

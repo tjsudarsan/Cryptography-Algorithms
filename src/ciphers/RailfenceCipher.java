@@ -49,3 +49,14 @@ public class RailfenceCipher {
      System.out.println("Decrypted message:"+String.valueOf(decrypt));
     }
 }
+
+/*
+OUTPUT:
+Ente the depth
+3
+Enter the text: 
+thisisasimpleprogramtoimplementrailfencecipher
+Input string is thisisasimpleprogramtoimplementrailfencecipher
+Cipher text:tsameoaopmtieeprhisppgmilerlnchisilrrtmenafcie
+Decrypted message:thisisasimpleprogramtoimplementrailfencecipher
+*/

@@ -51,3 +51,10 @@ public class CaesarCipher {
         System.out.println("Decrypted Text: " + decrypt(encrypt(input, 3), 3));
     }
 }
+
+/* OUTPUT:
+Enter the Text to encrypt: 
+hello
+Encrypted Text: khoor
+Decrypted Text: hello
+*/

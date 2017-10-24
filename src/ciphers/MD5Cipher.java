@@ -26,3 +26,10 @@ public class MD5Cipher {
         System.out.println("Hash Value: " + md5);
     }
 }
+
+/*
+OUTPUT:
+Enter the Text: 
+hello
+Hash Value: 123957004363873451094272536567338222994
+*/

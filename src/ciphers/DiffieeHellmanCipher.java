@@ -38,3 +38,19 @@ public class DiffieeHellmanCipher {
         System.out.println("Key Calculated for B is " + K2);
     }
 }
+
+/*
+Output:
+Enter the Prime Number: 
+7
+Enter the Premitive Root of 7: 
+3
+Enter the Person A's Secret Number less then 7: 
+5
+Enter the Person B's Secret Number less then 7: 
+3
+R1 = 5
+R2 = 6
+Key Calculated for A is 6
+Key Calculated for B is 6
+*/
