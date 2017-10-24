@@ -42,6 +42,7 @@ public class DESCipher {
 OUTPUT:
 Enter The Message: 
 thisistj
-Encrypted Data: B35A761A53D8CCFEB088C4B32A075592
+DES Key: 674AE657E0E3F1F7
+Encrypted Data: C5557717F7318EC12AD7B5AFA5AF7B43
 Decrypted Code: thisistj
 */

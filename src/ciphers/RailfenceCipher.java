@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class RailfenceCipher {
     public static void main(String[] args) {
         Scanner in= new Scanner(System.in);
-        System.out.println("Ente the depth");
+        System.out.println("Enter the depth: ");
         int depth=in.nextInt();
         System.out.println("Enter the text: ");
         String input=in.next().toLowerCase();
@@ -52,7 +52,7 @@ public class RailfenceCipher {
 
 /*
 OUTPUT:
-Ente the depth
+Enter the depth:
 3
 Enter the text: 
 thisisasimpleprogramtoimplementrailfencecipher
